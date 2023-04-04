@@ -8,7 +8,7 @@ i = 1
 numeros = 0
 
 while i <= 10:
-    num = int(input("Informe um número: "))
+    num = int(input("Informe um número inteiro: "))
     if (num >= 100 and num <= 200):
         numeros += 1
     i += 1
