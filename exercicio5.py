@@ -10,7 +10,7 @@ somatorio = 0
 while i <= 15:
     num = int(input("Informe um número inteiro: "))
     if num % 3 == 0:
-        somatorio += i
+        somatorio += 1
     i += 1
 
 print(f'O somatório de números ímpares é {somatorio}')
