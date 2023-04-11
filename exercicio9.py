@@ -8,20 +8,26 @@
 i = 1;
 i2 = int(input("Informe a quantidade de números que deseja inserir: "))
 
-# Variáveis para pegar pares e ímpares
-pares = 0
-impares = 0
+# Variáveis para somar os pares e contar cada um deles para a média 
+somaPares = 0
+contaPares = 0
 
-# Terminar amanhã
+# Variáveis para somar os ímpares e contar cada um deles para a média 
+somaImpares = 0
+contaImpares = 0
+
+# Estrutura de repetição (enquanto o contador for menor ou igual a quantidade que o usuário deseja colocar de números)
 while i <= i2:
     num = int(input("Digite um número inteiro: "))
     if num % 2 == 0: # Vai somar todos os números pares para fazer a média 
-        pares += 1
-        pares / num
+        contaPares += 1
+        somaPares += num
     elif num % 2 != 0:
-        impares += 1
-        impares / num
+        contaImpares += 1
+        somaImpares += num
     i += 1
 
-print(f"A média de números pares é de {pares}")
-print(f"A média de números ímpares é de {impares}")
+mediaPares = somaPares / contaPares
+mediaImpares = somaImpares / contaImpares
+print(f"A média de números pares é de {mediaPares}")
+print(f"A média de números ímpares é de {mediaImpares}")
