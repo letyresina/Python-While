@@ -9,7 +9,7 @@ somatorio = 0
 
 while i <= 15:
     num = int(input("Informe um número inteiro: "))
-    if num % 3 == 0:
+    if num % 2 != 0:
         somatorio += 1
     i += 1
 
