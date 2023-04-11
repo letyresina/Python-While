@@ -13,8 +13,8 @@ alturaJuca = 1.10
 i = 1 
 
 while alturaJuca <= alturaChico:
-    alturaChico += 0.2
-    alturaJuca += 0.5
+    alturaChico += 0.02
+    alturaJuca += 0.05
     i += 1
 
 print(f"A quantidade de anos para que Juca seja mais alto que Chico é de {i}")
