@@ -6,10 +6,10 @@
 
 N = int(input("Informe um valor inteiro qualquer: "))
 i = 1
-resultado = 1
+somatorio = 0
 
 while i <= N:
-    resultado *= 1 / i 
+    somatorio += 1 / i 
     i += 1
 
-print(f"O S de {N} é {resultado}")
+print(f"O S de {N} é {somatorio}")
