@@ -27,7 +27,14 @@ while i <= i2:
         somaImpares += num
     i += 1
 
-mediaPares = somaPares / contaPares
-mediaImpares = somaImpares / contaImpares
-print(f"A média de números pares é de {mediaPares}")
-print(f"A média de números ímpares é de {mediaImpares}")
+if contaPares > 0:
+    mediaPares = somaPares / contaPares
+    print(f"A média de números pares é de {mediaPares}")
+else:
+    print("Não há números pares.")
+
+if contaImpares > 0:
+    mediaImpares = somaImpares / contaImpares
+    print(f"A média de números ímpares é de {mediaImpares}")
+else: 
+    print("Não há números ímpares.")
