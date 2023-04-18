@@ -10,7 +10,7 @@ alturaChico = 1.50
 alturaJuca = 1.10 
 
 # Contador (para mostrar o ano) 
-i = 1 
+i = 0 
 
 while alturaJuca <= alturaChico:
     alturaChico += 0.02
